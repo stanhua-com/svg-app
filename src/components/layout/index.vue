@@ -1,9 +1,6 @@
 <template>
-  <div class="page">
-    <header-layer></header-layer>
-    <router-view />
-    <footer-layer></footer-layer>
-  </div>
+  <router-view />
 </template>
+
 <style lang="scss" src="./index.scss"></style>
 <script src="./index.js"></script>

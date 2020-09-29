@@ -34,5 +34,6 @@
     </div>
   </div>
 </template>
+
 <style lang="scss" src="./admin.scss"></style>
 <script src="./admin.js"></script>

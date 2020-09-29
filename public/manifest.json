@@ -1,6 +1,6 @@
 {
-  "name": "svg-app",
-  "short_name": "svg-app",
+  "name": "vue-app",
+  "short_name": "vue-app",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",

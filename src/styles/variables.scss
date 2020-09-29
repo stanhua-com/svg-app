@@ -6,8 +6,8 @@ $min-width: 1366px;
 
 // 主色调
 $base-color: #007bff;
-$base-active-color: #0062cc;
-$base-hover-color: #3e64ff;
+$base-hover-color: lighten($base-color, 10%);
+$base-active-color: darken($base-color, 10%);
 
 $black-color: #000;
 $white-color: #fff;

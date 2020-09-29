@@ -1,6 +1,6 @@
 .not-found-page {
   display: flex;
-  padding-top: $size*80;
+  padding-top: 80 * $size;
   justify-content: center;
   align-items: center;
 
@@ -9,22 +9,28 @@
   }
 
   .code {
-    padding-top: $size*30;
-    line-height: $size*80;
-    font-size: $size*80;
-    color: $danger-color;
-    text-shadow: 0 $size*1 $size*5 rgba($black-color, .28);
+    line-height: 88 * $size;
+    font-size: 88 * $size;
+    text-shadow: 0 1 * $size 6 * $size rgba($black-color, 0.18);
 
     span {
-      margin: 0 $size*5;
+      color: $success-color;
+    }
+
+    em {
+      margin: 0 8 * $size;
       color: $warning-color;
+    }
+
+    i {
+      color: $danger-color;
     }
   }
 
   .desc {
-    margin-top: $size*10;
-    line-height: $size*20;
-    font-size: $size*16;
-    color: $disable-color;
+    margin-top: 10 * $size;
+    line-height: 20 * $size;
+    font-size: 16 * $size;
+    color: $dark-color;
   }
 }

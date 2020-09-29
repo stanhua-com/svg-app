@@ -1,0 +1,19 @@
+.wrapper {
+  width: 100%;
+  min-width: $min-width;
+}
+
+.wrapper-box {
+  height: 100%;
+  width: $min-width;
+  margin: 0 auto;
+}
+
+@include screen("", $min-width) {
+  .wrapper {
+    min-width: 100%;
+  }
+  .wrapper-box {
+    width: 100%;
+  }
+}

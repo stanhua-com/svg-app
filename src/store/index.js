@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 import createPersistedState from 'vuex-persistedstate'
 import SecureLS from 'secure-ls'
 
-import { routeContexts } from '@/router'
+// import { routeContexts } from '@/router'
 
 Vue.use(Vuex)
 
@@ -21,7 +21,8 @@ export default new Vuex.Store({
   modules: {
   },
   state: {
-    menuList: routeContexts().sort((a, b) => a.sort - b.sort),
+    menuList: [],
+    // routeContexts().sort((a, b) => a.sort - b.sort)
     userInfo: null
   },
   getters: {

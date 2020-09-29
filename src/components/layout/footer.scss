@@ -1,8 +1,9 @@
 .footer {
-  padding: $size*2 $size;
-  margin-top: -$size*5.8;;
+  padding: 2 * $size 1 * $size;
+  margin-top: -5.8 * $size;
+
   .copyright {
-    line-height: $size*1.8;
+    line-height: 1.8 * $size;
     color: #80848f;
     text-align: center;
   }

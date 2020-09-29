@@ -1,17 +1,18 @@
 .loading {
   display: flex;
+  padding: 5 * $size;
   pointer-events: none;
   justify-content: center;
   align-items: center;
 
   &:before {
-    content: '';
-    width: $size *16;
-    height: $size *16;
-    border-width: $size *2;
+    content: "";
+    width: 5 * $size;
+    height: 5 * $size;
+    border-width: 0.2 * $size;
     border-style: solid;
-    border-color: transparent rgba($base-color, 1) rgba($base-color, 1) transparent;
+    border-color: transparent rgba($base-color, 0.8) rgba($base-color, 0.8) transparent;
     border-radius: 50%;
-    animation: rotating .7s linear infinite;
+    animation: rotating 0.8s linear infinite;
   }
 }

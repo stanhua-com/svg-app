@@ -70,7 +70,7 @@ module.exports = {
     // extract: false,
     loaderOptions: {
       sass: {
-        data: '@import "@/styles/variables.scss";'
+        prependData: '@import "@/styles/variables.scss";'
       }
     }
   },
