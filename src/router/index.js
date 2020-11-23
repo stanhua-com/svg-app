@@ -16,7 +16,6 @@ let _routes = [{
       path: '',
       meta: {
         title: '首页',
-        alive: true,
         fixed: true
       },
       component: HomePage

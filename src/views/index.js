@@ -1,21 +1,16 @@
 import { SVG } from '@svgdotjs/svg.js'
 
-import ContextMenu from '@/components/common/contextMenu/index.vue'
-
 export default {
   name: 'HomePage',
   data() {
     return {
       loadingShow: true,
-      contextMenuTarget: document.body,
-      contextMenuVisible: false,
     }
   },
   computed: {
 
   },
   components: {
-    ContextMenu
   },
   mounted() {
     this.drawsSvg()
@@ -27,14 +22,6 @@ export default {
       rect.linkTo(function (link) {
         link.to('http://svgdotjs.github.io/').target('_blank')
       })
-    },
-    // 返回
-    onBack() {
-      this.$router.go(-1)
-    },
-    // 重新刷新
-    onReload() {
-      location.reload()
     }
   }
 }
